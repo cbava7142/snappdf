@@ -32,7 +32,11 @@ ALLOWED_HOSTS = [
     "*"
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com','http://3.107.98.250']
+CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com','http://3.107.98.250'
+                       'https://*.onrender.com', 
+                       'http://3.107.98.250', 
+                      'http://umerlabs.tech', 
+                    'http://www.umerlabs.tech']
 
 # Application definition
 
