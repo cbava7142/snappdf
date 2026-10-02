@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     "*"
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com','http://3.107.98.250']
 
 # Application definition
 
