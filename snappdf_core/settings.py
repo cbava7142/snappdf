@@ -29,8 +29,10 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "your-api.example.com",
+    "*"
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
 
 # Application definition
 
