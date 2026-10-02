@@ -22,4 +22,5 @@ urlpatterns = [
     # Naye Edit PDF ke URLs
     path("edit-pdf/", views.edit_pdf, name="edit_pdf"),
     path("editor/", TemplateView.as_view(template_name="editor.html"), name="editor"),
+    path("", TemplateView.as_view(template_name="editor.html"), name="home"),
 ]
